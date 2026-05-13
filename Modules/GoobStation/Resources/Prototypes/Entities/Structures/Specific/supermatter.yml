@@ -28,6 +28,8 @@
     radius: 10
     energy: 5
     color: "#ffe000"
+  - type: GasMixtureHolder
+    volume: 100
   - type: WarpPoint
     follow: true
     location: supermatter
