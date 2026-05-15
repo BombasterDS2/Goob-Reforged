@@ -29,7 +29,14 @@
     energy: 2.5
     color: "#ffe000"
   - type: GasMixtureHolder
-    volume: 100
+    air:
+      volume: -1
+  - type: AtmosDevice
+  - type: AtmosExposed
+  - type: GasDevourer
+    transferRate: 10
+  - type: Temperature
+    atmosTemperatureTransferEfficiency: 0.25
   - type: WarpPoint
     follow: true
     location: supermatter

@@ -7,8 +7,8 @@ namespace Content.Goobstation.Shared.Atmos;
 public sealed partial class GasDevourerComponent : Component
 {
     /// <summary>
-    /// Maximum gas moles that holder can contain
+    /// Devouring speed in L/s
     /// </summary>
     [DataField]
-    public float MolesLimit = 0;
+    public float TransferRate = 100;
 }
