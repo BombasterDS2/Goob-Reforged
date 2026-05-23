@@ -12,6 +12,13 @@
     state: supermatter
     drawdepth: Mobs
     offset: "0.0,0.25"
+  - type: AmbientSound
+    range: 5
+    volume: 0
+    sound:
+      path: /Audio/Supermatter/calm.ogg
+      params:
+        variation: 0.5
   - type: Fixtures
     fixtures:
       fix1:

@@ -1,0 +1,14 @@
+- files: ["calm.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Taken from TG station"
+  source: "https://github.com/tgstation/tgstation/commit/687d5103e8c916a24f7bd229d006838bf2f057f3"
+
+- files: ["delamming.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Taken from TG station"
+  source: "https://github.com/tgstation/tgstation/commit/687d5103e8c916a24f7bd229d006838bf2f057f3"
+
+- files: ["ashing.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Taken from TG station as supermatter.ogg"
+  source: "https://github.com/tgstation/tgstation/commit/0c5641d01639a6d35bcd5b1a835af2ee83a6cdc0"
