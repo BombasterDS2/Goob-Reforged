@@ -1,4 +1,4 @@
-namespace Content.Goobstation.Shared.Atmos;
+namespace Content.Goobstation.Common.Atmos;
 
 /// <summary>
 /// Allows entity to devour nearby gases and put them inside GasMixtureHolderComponent

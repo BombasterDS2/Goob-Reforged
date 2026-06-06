@@ -1,4 +1,5 @@
 using Content.Server.Atmos.Reactions;
+using Robust.Shared.Prototypes;
 
 namespace Content.Goobstation.Server.Atmos;
 
@@ -12,5 +13,5 @@ public sealed partial class GasReactionChamberComponent : Component
     /// List of allowed reactions. Reactions are not allowed if empty.
     /// </summary>
     [DataField]
-    public HashSet<GasReactionPrototype> Reactions = new();
+    public HashSet<ProtoId<GasReactionPrototype>> Reactions = new();
 }
