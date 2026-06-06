@@ -24,26 +24,18 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.45,-0.45,0.45,0.45"
+          bounds: "-0.4,-0.4,0.4,0.4"
         density: 60
         mask:
         - MachineMask
         layer:
         - MachineLayer
+        - WallLayer
   - type: PointLight
     enabled: true
     radius: 10
     energy: 2.5
     color: "#ffe000"
-  - type: GasMixtureHolder
-    air:
-      volume: -1
-  - type: AtmosDevice
-  - type: AtmosExposed
-  - type: GasDevourer
-    transferRate: 10
-  - type: Temperature
-    atmosTemperatureTransferEfficiency: 0.25
   - type: WarpPoint
     follow: true
     location: supermatter
@@ -51,3 +43,20 @@
     speechSounds: Pai
   - type: GuideHelp
     guides: [ Power ]
+  - type: Battery # Used to store SMs energy
+  - type: GasMixtureHolder # Used to hold reaction-gases inside SM
+    air:
+      volume: -1 # Negative volume prevents pressure raising
+  - type: AtmosDevice
+  - type: AtmosExposed
+  - type: GasDevourer
+    transferRate: 10
+  - type: Temperature
+    atmosTemperatureTransferEfficiency: 0.25
+  - type: DestroyInteractings
+    destroyBlacklist: 
+      tags:
+      - SupermatterImmune
+    respectContacts: true
+    destructionSound: /Audio/Supermatter/ashing.ogg
+    spawnOnDestruction: Ash

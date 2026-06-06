@@ -1,0 +1,2 @@
+- type: Tag
+  id: SupermatterImmune # Used to mark entities that should not be destroyed by supermatter.

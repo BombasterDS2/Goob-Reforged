@@ -114,6 +114,7 @@
     tags:
     - Burnt
     - Trash
+    - SupermatterImmune #Goobstation - Prevent repeat destruction
   - type: Solution
     solution:
       reagents:
