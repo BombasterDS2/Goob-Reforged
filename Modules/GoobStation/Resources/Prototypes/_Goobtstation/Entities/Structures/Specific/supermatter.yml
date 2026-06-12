@@ -71,3 +71,5 @@
     respectContacts: true
     destructionSound: /Audio/_Goobstation/Supermatter/ashing.ogg
     spawnOnDestruction: Ash
+  # Damage control
+  - type: Damageable
