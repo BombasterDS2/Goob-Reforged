@@ -8,7 +8,7 @@
     anchored: true
     noRot: true
   - type: Sprite
-    sprite: Structures/supermatter.rsi
+    sprite: _Goobstation/Structures/supermatter.rsi
     state: supermatter
     drawdepth: Mobs
     offset: "0.0,0.25"
@@ -16,7 +16,7 @@
     range: 5
     volume: 0
     sound:
-      path: /Audio/Supermatter/calm.ogg
+      path: /Audio/_Goobstation/Supermatter/calm.ogg
       params:
         variation: 0.5
   - type: Fixtures
@@ -43,7 +43,7 @@
     speechSounds: Pai
   - type: GuideHelp
     guides: [ Power ]
-  - type: Battery # Used to store SMs energy
+  # Atmospherics block
   - type: GasMixtureHolder # Used to hold reaction-gases inside SM
     air:
       volume: -1 # Negative volume prevents pressure raising
@@ -51,12 +51,23 @@
   - type: AtmosExposed
   - type: GasDevourer
     transferRate: 10
+  - type: GasReactionChamber
+    reactions: 
+    - SupermatterOxygenProcessing
+    - SupermatterNitrousOxideProcessing
+    - SupermatterCO2Processing
+    - SupermatterPlasmaProcessing
+    - SupermatterWaterVaporProcessing
+    - SupermatterAmmoniaProcessing
+    - SupermatterFrezonProcessing
   - type: Temperature
     atmosTemperatureTransferEfficiency: 0.25
+  # Energy block
+  - type: Battery # Used to store SM energy
   - type: DestroyInteractings
     destroyBlacklist: 
       tags:
       - SupermatterImmune
     respectContacts: true
-    destructionSound: /Audio/Supermatter/ashing.ogg
+    destructionSound: /Audio/_Goobstation/Supermatter/ashing.ogg
     spawnOnDestruction: Ash

@@ -1,0 +1,80 @@
+- type: gasReaction
+  id: SupermatterOxygenProcessing
+  priority: 0
+  standardReaction: False
+  maximumTemperature: 0
+  minimumRequirements:
+    Oxygen: 0.01
+  #effects:
+  #- !type:SupermatterOxygenProcessing {}
+
+#  Nitrogen should be filler gas that do nothing
+#- type: gasReaction
+#  id: SupermatterNitrogenProcessing
+#  priority: -1
+#  standardReaction: False
+#  maximumTemperature: 0
+#  minimumRequirements:
+#    Nitrogen: 0.01
+#  effects:
+#  - !type:SupermatterNitrogenProcessing {}
+
+- type: gasReaction
+  id: SupermatterNitrousOxideProcessing
+  priority: 1
+  standardReaction: False
+  maximumTemperature: 0
+  minimumRequirements:
+    NitrousOxide: 0.01
+  #effects:
+  #- !type:SupermatterNitrousOxideProcessing {}
+
+- type: gasReaction
+  id: SupermatterCO2Processing
+  priority: 2
+  standardReaction: False
+  maximumTemperature: 0
+  minimumRequirements:
+    CarbonDioxide: 0.01
+  #effects:
+  #- !type:SupermatterCarbonDioxideProcessing {}
+
+- type: gasReaction
+  id: SupermatterPlasmaProcessing
+  priority: 3
+  standardReaction: False
+  maximumTemperature: 0
+  minimumRequirements:
+    Plasma: 0.01
+  #effects:
+  #- !type:SupermatterPlasmaProcessing {}
+
+- type: gasReaction
+  id: SupermatterWaterVaporProcessing
+  priority: 4
+  standardReaction: False
+  maximumTemperature: 0
+  minimumRequirements:
+    WaterVapor: 0.01
+  #effects:
+  #- !type:SupermatterWaterVaporProcessing {}
+
+- type: gasReaction
+  id: SupermatterAmmoniaProcessing
+  priority: 5
+  standardReaction: False
+  maximumTemperature: 0
+  minimumRequirements:
+    Ammonia: 0.01
+  #effects:
+  #- !type:SupermatterAmmoniaProcessing {}
+
+- type: gasReaction
+  id: SupermatterFrezonProcessing
+  priority: 6
+  standardReaction: False
+  maximumTemperature: 0
+  minimumRequirements:
+    Frezon: 0.01
+  #effects:
+  #- !type:SupermatterFrezonProcessing {}
