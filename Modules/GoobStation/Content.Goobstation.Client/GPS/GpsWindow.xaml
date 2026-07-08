@@ -74,7 +74,7 @@
 			</Control>
 		</Control>
         <BoxContainer Orientation="Horizontal" SetHeight="24">
-            <Label Text="{Loc 'gps-window-footer-text'}" StyleClasses="PdaWindowFooterText" Margin="16 0 0 6"/>
+            <Label Text="{Loc 'gps-window-footer-text'}" FontColorOverride="#e5e5e5" StyleClasses="PdaWindowFooterText" Margin="16 0 0 6"/>
         </BoxContainer>
     </BoxContainer>
 </ui:GpsWindow>

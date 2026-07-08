@@ -417,3 +417,11 @@ ui-options-admin-overlay-ghost-hide-distance = Ghost overlay hide range from mou
 
 ui-options-admin-strip-overlay-title = Strip Overlay
 ui-options-admin-strip-overlay-setting = Show strip overlay by default
+
+# Reforged - Particles
+ui-options-particles-label = Particle Quality:
+ui-options-particles-off = Off
+ui-options-particles-low = Low
+ui-options-particles-medium = Medium
+ui-options-particles-high = High
+ui-options-particles-ultra = Ultra

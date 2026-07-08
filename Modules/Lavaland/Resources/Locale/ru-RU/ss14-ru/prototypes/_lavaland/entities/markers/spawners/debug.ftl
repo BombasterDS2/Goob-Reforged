@@ -1,0 +1,12 @@
+ent-SpawnerShapeLavaCross = Lava Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Cross, Size 5
+ent-SpawnerShapeLavaCrossDiagonal = Lava Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Cross, Size 5
+ent-SpawnerShapeLavaCrossCombined = Lava Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Combined cross, Size 4
+ent-SpawnerShapeLavaComplex = Lava Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Box

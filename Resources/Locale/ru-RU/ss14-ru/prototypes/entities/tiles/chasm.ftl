@@ -1,0 +1,17 @@
+ent-BaseFloorChasmEntity = chasm
+    .desc = You can't even see the bottom.
+ent-FloorChasmEntity = { ent-BaseFloorChasmEntity }
+    .desc = { ent-BaseFloorChasmEntity.desc }
+    .suffix = Basalt
+ent-FloorChromiteChasm = { ent-FloorChasmEntity }
+    .desc = { ent-FloorChasmEntity.desc }
+    .suffix = Хромит
+ent-FloorDesertChasm = { ent-FloorChasmEntity }
+    .desc = { ent-FloorChasmEntity.desc }
+    .suffix = Пустыня
+ent-FloorSnowChasm = { ent-FloorChasmEntity }
+    .desc = { ent-FloorChasmEntity.desc }
+    .suffix = Снег
+ent-FloorChasmEntityContainer = { ent-BaseFloorChasmEntity }
+    .desc = { ent-BaseFloorChasmEntity.desc }
+    .suffix = DO NOT MAP, Basalt, Container
