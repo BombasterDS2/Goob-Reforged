@@ -21,7 +21,7 @@
         variation: 0.5
   - type: Fixtures
     fixtures:
-      fix1:
+      bzzz:
         shape:
           !type:PhysShapeAabb
           bounds: "-0.4,-0.4,0.4,0.4"
